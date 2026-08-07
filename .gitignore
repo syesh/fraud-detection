@@ -22,6 +22,8 @@ env/
 .ipynb_checkpoints
 *.ipynb
 
+# IDEs
+.idea/
 # VS Code
 .vscode/
 
