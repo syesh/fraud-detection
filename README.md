@@ -41,9 +41,3 @@ streamlit run fraud_detection.py
 - Avoid committing large binary model artifacts in the repo; use Git LFS or regenerate the model from the notebook.
 - Keep `AIML Dataset.csv` in `data/` (update app/notebook paths) if you want to add other datasets.
 - Add unit tests that load the pipeline and run a smoke prediction to catch serialization/API changes.
-
-**Contributing**
-- Fork, create a branch, and open a PR with a description of changes.
-
-**License**
-- Add a license file if you plan to distribute the code.
