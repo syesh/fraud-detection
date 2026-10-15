@@ -32,11 +32,6 @@ jupyter notebook analysis_model.ipynb
 streamlit run fraud_detection.py
 ```
 
-**How it works**
-- Use the notebook to load `AIML Dataset.csv`, clean and engineer features, and train a scikit-learn pipeline.
-- Save the trained pipeline to `fraud_detection_pipeline.pkl`.
-- The Streamlit app loads that pipeline and exposes a simple form to score new examples or sample rows from the dataset.
-
 **Development notes & recommendations**
 - Avoid committing large binary model artifacts in the repo; use Git LFS or regenerate the model from the notebook.
 - Keep `AIML Dataset.csv` in `data/` (update app/notebook paths) if you want to add other datasets.
